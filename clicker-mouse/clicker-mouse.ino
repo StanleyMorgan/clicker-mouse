@@ -17,22 +17,22 @@ void loop() {
 
   switch (mode) {
     case 1:
-      startTime = 2800;
-      stopTime = 3000;   
+      startTime = 80;
+      stopTime = 160;   
       Mouse.press(MOUSE_LEFT);
       delay(random(1, 5));
       Mouse.release(MOUSE_LEFT);          
       break;
     case 2:
-      startTime = 300;
-      stopTime = 500;
+      startTime = 40;
+      stopTime = 80;
       Mouse.press(MOUSE_LEFT);
       delay(random(1, 5));
       Mouse.release(MOUSE_LEFT);        
       break;
     case 3:
-      startTime = 60;
-      stopTime = 120;  
+      startTime = 20;
+      stopTime = 40;  
       Mouse.press(MOUSE_LEFT);
       delay(random(1, 5));
       Mouse.release(MOUSE_LEFT);      
